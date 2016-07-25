@@ -3,9 +3,10 @@ services:
   freenet:
     container_name: freenet
     image: infincia/docker-freenet:master
+    network_mode: "host"
     ports:
-      - "8888:8888"
-      - "9481:9481"
+      - "127.0.0.1:8888:8888"
+      - "127.0.0.1:9481:9481"
     volumes:
       - /conf/freenet:/conf
       - /data/freenet:/data
