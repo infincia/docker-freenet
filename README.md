@@ -1,8 +1,8 @@
-**Current build:** fred1475
+**Current build:** fred1478
 
 **Note:** work in progress, port access doesnt work yet
 
-If present, use the `fred1475` tag instead of `latest` or `master`
+If present, use the `fred1478` tag instead of `latest` or `master`
 
 This is an **unofficial** docker image for Freenet. 
 
