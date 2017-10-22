@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ ! -f /conf/freenet.ini ]; then
+    cp /defaults/freenet.ini /conf/
+    sed -i "s/ALLOWEDHOSTS/$allowedhosts/" /conf/freenet.ini
+fi
+
+cd /fred
+
+./run.sh console
